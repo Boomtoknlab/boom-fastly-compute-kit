@@ -14,10 +14,10 @@ jobs:
       with:
         node-version: '18'
     - name: Setup Fastly CLI
-      uses: fastly/compute-actions/setup@v5
+      uses: fastly/compute-actions/setup@v11
     - name: Install Dependencies
       run: npm install
     - name: Build Compute Package
-      uses: fastly/compute-actions/build@v5
+      uses: fastly/compute-actions/build@v11
       with:
         verbose: true
