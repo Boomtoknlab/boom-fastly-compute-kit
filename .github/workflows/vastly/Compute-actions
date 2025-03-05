@@ -1,0 +1,2 @@
+- name: Build and deploy a Compute project
+  uses: fastly/compute-actions@v11
