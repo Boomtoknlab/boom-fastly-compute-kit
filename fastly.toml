@@ -1,11 +1,8 @@
-# This file describes a Fastly Compute package. To learn more visit:
-# https://developer.fastly.com/reference/fastly-toml/
-
-authors = ["<oss@fastly.com>"]
-description = "A basic starter kit that demonstrates routing, simple synthetic responses and overriding caching rules."
-language = "javascript"
+authors = ["Boom Token <marinachris112@outlook.com>"]
+description = "Boom Token Lab’s Fastly Compute Starter Kit for TypeScript. This repository is a template for deploying high-performance Fastly Compute@Edge applications using JavaScript and TypeScript."
+language = "javascript_typescript"
 manifest_version = 3
-name = "Default starter for TypeScript"
+name = "boom-fastly-compute-kit"
 
 [scripts]
 build = "npm run build"
