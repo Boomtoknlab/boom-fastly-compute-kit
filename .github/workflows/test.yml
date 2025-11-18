@@ -12,7 +12,7 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v4
       with:
-        node-version: '22'
+        node-version: '24'
     - name: Setup Fastly CLI
       uses: fastly/compute-actions/setup@v11
     - name: Install Dependencies
