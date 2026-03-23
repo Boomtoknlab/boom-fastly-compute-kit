@@ -5,7 +5,7 @@
   },
   "devDependencies": {
     "@fastly/cli": "^13.0.0",
-    "typescript": "^5.2.2"
+    "typescript": "^6.0.0"
   },
   "dependencies": {
     "@fastly/js-compute": "^3.7.0"
